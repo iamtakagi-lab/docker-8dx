@@ -1,7 +1,7 @@
 # 🐳 docker-8dx: 8dx bots in docker.
 個人的に開発している マリオカート8DX 向けの Discord Bot をコンテナに閉じ込めました
 
-# Services
+## Services
 - [iamtakagi/sokujichan](https://github.com/iamtakagi/sokujichan)
 - [iamtakagi/8dx-tracktablebot](https://github.com/iamtakagi/8dx-tracktablebot)
 - [iamtakagi/8dx-teambot](https://github.com/iamtakagi/8dx-teambot)

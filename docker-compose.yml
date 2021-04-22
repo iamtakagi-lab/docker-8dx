@@ -18,8 +18,6 @@ services:
     restart: always
     ports:
       - 8080:8080
-    depends_on:
-      - db
     environment:
       # Bot Token (ここだけ書き換えれば動く: 入力必須)
       BOT_TOKEN: xxx
@@ -52,3 +50,7 @@ services:
     image: iamtakagi/8dx-teambot:latest
     # Bot Token (ここだけ書き換えれば動く: 入力必須)
     BOT_TOKEN: xxx
+
+volumes:
+  db:
+    driver: local
